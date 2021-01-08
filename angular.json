@@ -16,7 +16,7 @@
             "outputPath": "dist/automation-front-end",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "polyfilnpm install jqueryls": "src/polyfills.ts",
+            "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [

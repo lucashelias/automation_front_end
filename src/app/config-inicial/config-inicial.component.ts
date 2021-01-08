@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import * as fs from 'fs';
+import * as path from 'path';
 
 @Component({
   selector: 'app-config-inicial',
@@ -8,18 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConfigInicialComponent implements OnInit {
   
-  valida_config_inicial: boolean;0
-  nome_arquivo_config : String;
-  
+  valida_config_inicial: boolean;
+  path_arq_automacao: String;
+  nome_arquivo_config : String = ''
+    
   constructor() { }
   
   ngOnInit(): void {
-    const fs = require('fs');
   }
   
   valida_arquivo(nome_arquivo_config){
-    
-  
+      
+
     
 
     return this.valida_config_inicial
